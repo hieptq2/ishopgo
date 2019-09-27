@@ -407,55 +407,55 @@
             window.location.href = $(this).data("target");
         });
     };
-    $.fn.ui_uhd_images = function() {
-        var img = this;
-        var total = img.length;
-        var loaded = 0;
-        if (window.devicePixelRatio >= 1.25) {
-            setUHDImage(img);
-        }
-        function setUHDImage(images) {
-            images.each(function() {
-                loaded++;
-                var this_img = $(this);
-                var img_src = this_img.attr("src");
-                if (typeof img_src !== "undefined") {
-                    var img_type = img_src.split(".").pop();
-                    var retina_img = img_src.replace("." + img_type, "@2x." + img_type);
-                    this_img.attr("src", retina_img);
-                    if (loaded >= total) {
-                        setTimeout(function() {
-                            doc.trigger("images_did_load");
-                        }, 500);
-                    }
-                }
-            });
-        }
-    };
-    load_bg_images();
-    function load_bg_images() {
-        var images = doc.find("[data-bg]");
-        var uhd = doc.find("[data-uhd][data-bg]");
-        if (window.devicePixelRatio >= 1.25) {
-            uhd.each(function() {
-                var this_img = $(this);
-                var img_src = this_img.attr("data-bg");
-                var img_type = img_src.split(".").pop();
-                var retina_img = img_src.replace("." + img_type, "@2x." + img_type);
-                this_img.css({
-                    "background-image": "url('" + retina_img + "')"
-                });
-            });
-        } else {
-            images.each(function() {
-                var this_img = $(this);
-                var img_src = this_img.attr("data-bg");
-                this_img.css({
-                    "background-image": "url('" + img_src + "')"
-                });
-            });
-        }
-    }
+    // $.fn.ui_uhd_images = function() {
+    //     var img = this;
+    //     var total = img.length;
+    //     var loaded = 0;
+    //     if (window.devicePixelRatio >= 1.25) {
+    //         setUHDImage(img);
+    //     }
+    //     function setUHDImage(images) {
+    //         images.each(function() {
+    //             loaded++;
+    //             var this_img = $(this);
+    //             var img_src = this_img.attr("src");
+    //             if (typeof img_src !== "undefined") {
+    //                 var img_type = img_src.split(".").pop();
+    //                 var retina_img = img_src.replace("." + img_type, "@2x." + img_type);
+    //                 this_img.attr("src", retina_img);
+    //                 if (loaded >= total) {
+    //                     setTimeout(function() {
+    //                         doc.trigger("images_did_load");
+    //                     }, 500);
+    //                 }
+    //             }
+    //         });
+    //     }
+    // };
+    // load_bg_images();
+    // function load_bg_images() {
+    //     var images = doc.find("[data-bg]");
+    //     var uhd = doc.find("[data-uhd][data-bg]");
+    //     if (window.devicePixelRatio >= 1.25) {
+    //         uhd.each(function() {
+    //             var this_img = $(this);
+    //             var img_src = this_img.attr("data-bg");
+    //             var img_type = img_src.split(".").pop();
+    //             var retina_img = img_src.replace("." + img_type, "@2x." + img_type);
+    //             this_img.css({
+    //                 "background-image": "url('" + retina_img + "')"
+    //             });
+    //         });
+    //     } else {
+    //         images.each(function() {
+    //             var this_img = $(this);
+    //             var img_src = this_img.attr("data-bg");
+    //             this_img.css({
+    //                 "background-image": "url('" + img_src + "')"
+    //             });
+    //         });
+    //     }
+    // }
     images_loaded();
     function images_loaded() {
         var images = doc.find("img");
@@ -510,30 +510,30 @@
             }
         });
     });
-    if ($("form#contact-form").length > 0) {
-        $.validate({
-            form: "form#contact-form",
-            validateOnBlur: true,
-            modules: "sanitize",
-            scrollToTopOnError: false,
-            onSuccess: function($form) {
-                submit_form($form, "mailer/submit-contact-form.php");
-                return false;
-            }
-        });
-    }
-    if ($("form#sign-up-form").length > 0) {
-        $.validate({
-            form: "form#sign-up-form",
-            validateOnBlur: true,
-            modules: "sanitize",
-            scrollToTopOnError: false,
-            onSuccess: function($form) {
-                submit_form($form, "mailer/submit-subscribe-form.php");
-                return false;
-            }
-        });
-    }
+    // if ($("form#contact-form").length > 0) {
+    //     $.validate({
+    //         form: "form#contact-form",
+    //         validateOnBlur: true,
+    //         modules: "sanitize",
+    //         scrollToTopOnError: false,
+    //         onSuccess: function($form) {
+    //             submit_form($form, "mailer/submit-contact-form.php");
+    //             return false;
+    //         }
+    //     });
+    // }
+    // if ($("form#sign-up-form").length > 0) {
+    //     $.validate({
+    //         form: "form#sign-up-form",
+    //         validateOnBlur: true,
+    //         modules: "sanitize",
+    //         scrollToTopOnError: false,
+    //         onSuccess: function($form) {
+    //             submit_form($form, "mailer/submit-subscribe-form.php");
+    //             return false;
+    //         }
+    //     });
+    // }
     function submit_form(form, script) {
         var the_form = form;
         the_form.find("button").text("Sending");
@@ -644,9 +644,9 @@
         }
     });
     $(".navbar").ui_navbar();
-    if ($("[data-uhd]").length) {
-        $("[data-uhd]").ui_uhd_images();
-    }
+    // if ($("[data-uhd]").length) {
+    //     $("[data-uhd]").ui_uhd_images();
+    // }
     if ($("[data-scrollto]").length) {
         $("[data-scrollto]").ui_scroll_to();
     }

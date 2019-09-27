@@ -69,6 +69,8 @@
 * Copyright 2011-2017 Twitter, Inc.
 * Licensed under MIT (https://github.com/twbs/bootstrap/blob/master/LICENSE)
 */
+@import url("https://fonts.googleapis.com/css?family=Roboto+Condensed:400,400i,700,700i&display=swap&subset=vietnamese");
+@import url("https://fonts.googleapis.com/css?family=Open+Sans:400,400i,600,600i,700,700i&display=swap&subset=vietnamese");
 @-ms-viewport {
   width: device-width; }
 html {
@@ -347,7 +349,7 @@ template {
 h1, h2, h3, h4, h5, h6,
 .h1, .h2, .h3, .h4, .h5, .h6 {
   margin-bottom: 0.5rem;
-  font-family: "Source Sans Pro", sans-serif;
+  font-family: "Open Sans", sans-serif;
   font-weight: 700;
   line-height: 1.1;
   color: inherit; }
@@ -11428,7 +11430,7 @@ body[data-fade_in="on-load"],
   -webkit-backface-visibility: hidden; }
 
 .ui-accordion .toggle {
-  font-family: "Source Sans Pro", sans-serif;
+  font-family: "Open Sans", sans-serif;
   position: relative;
   margin-bottom: 0;
   margin-top: 0;
@@ -11477,7 +11479,7 @@ body[data-fade_in="on-load"],
 * ----------------------------------------------------------------------- *
 */
 .btn {
-  font-family: "Source Sans Pro", sans-serif;
+  font-family: "Open Sans", sans-serif;
   display: inline-block;
   font-size: .9rem;
   padding: .6rem 1.5rem;
@@ -11504,7 +11506,7 @@ body[data-fade_in="on-load"],
     line-height: 37px;
     height: 37px; } }
 .btn-link {
-  font-family: "Source Sans Pro", sans-serif;
+  font-family: "Open Sans", sans-serif;
   display: inline-block;
   font-size: .9rem;
   font-weight: 600;
@@ -11805,7 +11807,7 @@ body[data-fade_in="on-load"],
 
 .ui-footer ul.footer-nav li a {
   display: block;
-  font-family: "Source Sans Pro", sans-serif;
+  font-family: "Open Sans", sans-serif;
   font-weight: 600;
   font-size: .95rem; }
 
@@ -12112,7 +12114,7 @@ body[data-fade_in="on-load"],
   line-height: 41px; }
 
 .ui-hero .hero-price {
-  font-family: "Source Sans Pro", sans-serif;
+  font-family: "Open Sans", sans-serif;
   font-weight: 700;
   font-size: 1.6rem;
   vertical-align: middle; }
@@ -12513,7 +12515,7 @@ body.modal-open {
   display: block;
   position: fixed;
   width: 100%;
-  font-family: "Source Sans Pro", sans-serif;
+  font-family: "Open Sans", sans-serif;
   align-items: inherit;
   box-shadow: 0 5px 10px rgba(0, 9, 128, 0.035), 0 7px 18px rgba(0, 9, 128, 0.05);
   transition: box-shadow 0.35s ease-out, background-color 0.35s ease-out;
@@ -12958,7 +12960,7 @@ body.modal-open {
 * ----------------------------------------------------------------------- *
 */
 .ui-tabs .nav-tabs {
-  font-family: "Source Sans Pro", sans-serif;
+  font-family: "Open Sans", sans-serif;
   margin-bottom: 2rem; }
 
 .ui-tabs .nav-tabs li {
@@ -13201,7 +13203,7 @@ body.modal-open {
   height: 30px;
   line-height: 30px;
   color: #fff;
-  font-family: "Source Sans Pro", sans-serif;
+  font-family: "Open Sans", sans-serif;
   font-size: 1.4rem;
   font-weight: 600;
   text-align: center;
@@ -13985,7 +13987,7 @@ body.modal-open {
   margin-bottom: .75rem; }
 
 .ui-pricing-card .ui-card .card-header .price {
-  font-family: "Source Sans Pro", sans-serif;
+  font-family: "Open Sans", sans-serif;
   margin-bottom: 1rem; }
 
 .ui-pricing-card .ui-card .card-header .price .curency, .ui-pricing-card .ui-card .card-header .price .period {
@@ -14113,7 +14115,7 @@ body.modal-open {
   text-align: center; }
 
 .ui-testimonials .item .ui-card p {
-  font-family: "Source Sans Pro", sans-serif;
+  font-family: "Open Sans", sans-serif;
   color: #414c5a;
   margin-bottom: 0;
   font-weight: 600; }
@@ -14318,7 +14320,7 @@ body.coming-soon .ui-counter > div .label {
 .ui-pricing-table .pricing-block .promo {
   text-transform: uppercase;
   padding: 0 1rem;
-  font-family: "Source Sans Pro", sans-serif;
+  font-family: "Open Sans", sans-serif;
   font-weight: 600;
   border-top-left-radius: 0.5rem;
   border-top-right-radius: 0.5rem;
@@ -14332,11 +14334,11 @@ body.coming-soon .ui-counter > div .label {
   padding: 1rem; }
 
 .ui-pricing-table .pricing-block .pricing-header .price-plan {
-  font-family: "Source Sans Pro", sans-serif;
+  font-family: "Open Sans", sans-serif;
   font-weight: 600; }
 
 .ui-pricing-table .pricing-block .pricing-header .price-wrapper {
-  font-family: "Source Sans Pro", sans-serif;
+  font-family: "Open Sans", sans-serif;
   font-weight: 600;
   font-size: 1.3rem;
   height: 46px;
@@ -14404,7 +14406,7 @@ body.coming-soon .ui-counter > div .label {
     z-index: 1; }
 
   .ui-pricing-table .pricing-block .pricing-header .price-plan {
-    font-family: "Source Sans Pro", sans-serif;
+    font-family: "Open Sans", sans-serif;
     font-size: 1.5rem;
     font-weight: 700; }
 
@@ -14549,7 +14551,7 @@ body.coming-soon .ui-counter > div .label {
 
 #ui-api-docs .docs-sidebar ul li a {
   color: #414c5a;
-  font-family: "Source Sans Pro", sans-serif;
+  font-family: "Open Sans", sans-serif;
   font-weight: 600; }
 
 #ui-api-docs .docs-sidebar ul li a:hover {
@@ -14592,7 +14594,7 @@ body.coming-soon .ui-counter > div .label {
 
 #ui-api-docs .docs-article-links li a {
   display: block;
-  font-family: "Source Sans Pro", sans-serif;
+  font-family: "Open Sans", sans-serif;
   font-weight: 600; }
 
 #ui-api-docs .docs-article-links li i {
@@ -14673,5 +14675,234 @@ body.coming-soon .ui-counter > div .label {
 .error404-page .main .error404-wrapper .heading {
   font-size: 3.6rem;
   margin: 2rem 0; }
+
+body {
+  line-height: 1.4375;
+  font-family: "Open Sans", sans-serif; }
+
+.navbar {
+  font-family: "Open Sans", sans-serif;
+  font-weight: 600; }
+
+.btn {
+  font-family: "Open Sans", sans-serif;
+  font-size: 1rem;
+  font-weight: 600;
+  padding: .75rem 1.5rem;
+  text-transform: none;
+  letter-spacing: 0;
+  border-color: transparent; }
+  .btn.btn-download {
+    padding-left: 4.5rem; }
+  .btn.btn-lg {
+    font-size: 1.125rem;
+    padding: .875rem 1.75rem; }
+  .btn.btn-blue {
+    background-color: #08c;
+    background-image: linear-gradient(45deg, #0088cc 0%, #0099e6 100%); }
+    .btn.btn-blue:hover {
+      background-image: linear-gradient(45deg, #0099e6 0%, #00a3f5 100%); }
+    .btn.btn-blue:active {
+      background-color: #006da3; }
+  .btn.btn-green {
+    background-color: #92d275;
+    background-image: linear-gradient(45deg, #92d275 0%, #a1d888 100%); }
+    .btn.btn-green:hover {
+      background-image: linear-gradient(45deg, #a1d888 0%, #aadc94 100%); }
+    .btn.btn-green:active {
+      background-color: #7ac856; }
+  .btn.btn-green {
+    background-color: #92d275;
+    background-image: linear-gradient(45deg, #92d275 0%, #a1d888 100%); }
+    .btn.btn-green:hover {
+      background-image: linear-gradient(45deg, #a1d888 0%, #aadc94 100%); }
+    .btn.btn-green:active {
+      background-color: #7ac856; }
+
+.main--ishopgo .heading {
+  font-family: "Roboto Condensed", sans-serif;
+  font-weight: 700; }
+.main--ishopgo .ui-hero.ui-waves {
+  margin: 0 0 -2rem 0;
+  padding: 3rem 0 5rem 0; }
+  @media (min-width: 576px) {
+    .main--ishopgo .ui-hero.ui-waves {
+      padding: 3rem 0 6rem 0; } }
+  @media (min-width: 768px) {
+    .main--ishopgo .ui-hero.ui-waves {
+      padding: 2.5rem 0 8rem 0; } }
+  @media (min-width: 1200px) {
+    .main--ishopgo .ui-hero.ui-waves {
+      padding: 3rem 0 9rem 0; } }
+  @media (min-width: 1681px) {
+    .main--ishopgo .ui-hero.ui-waves {
+      padding: 4rem 0 10rem 0; } }
+@media (max-width: 767px) {
+  .main--ishopgo .ui-hero {
+    text-align: center; } }
+.main--ishopgo .ui-hero .heading {
+  margin: 0 0 16px;
+  line-height: 1.2;
+  font-size: 36px; }
+  @media (min-width: 768px) {
+    .main--ishopgo .ui-hero .heading {
+      font-size: 48px;
+      margin: 0 0 16px; } }
+.main--ishopgo .ui-hero .paragraph {
+  line-height: 1.25;
+  font-family: "Open Sans", sans-serif;
+  font-size: 16px;
+  font-weight: 500;
+  color: #fff; }
+  @media (min-width: 768px) {
+    .main--ishopgo .ui-hero .paragraph {
+      font-size: 20px; } }
+.main--ishopgo .ui-hero .actions {
+  margin: 28px 0 24px;
+  position: relative; }
+.main--ishopgo .ui-hero .img-wrap {
+  padding: 24px 0; }
+.main--ishopgo .section {
+  padding: 3rem 0; }
+  @media (min-width: 768px) {
+    .main--ishopgo .section {
+      padding: 5rem 0; } }
+  .main--ishopgo .section-heading {
+    margin-bottom: 2rem; }
+    @media (min-width: 768px) {
+      .main--ishopgo .section-heading {
+        margin-bottom: 3rem; } }
+    .main--ishopgo .section-heading .heading {
+      position: relative;
+      color: #92d275; }
+      .main--ishopgo .section-heading .heading.center {
+        margin-bottom: 48px; }
+        .main--ishopgo .section-heading .heading.center:after {
+          content: "";
+          display: block;
+          position: absolute;
+          bottom: -24px;
+          left: 50%;
+          margin-left: -64px;
+          width: 128px;
+          height: 2px;
+          background-color: #e0e0e0; }
+    .main--ishopgo .section-heading .paragraph {
+      display: inline-block;
+      max-width: 560px;
+      font-size: 1.125rem;
+      margin-bottom: 1rem; }
+  .main--ishopgo .section--fets .ui-icon-block {
+    padding: 8px 4px; }
+    @media (min-width: 768px) {
+      .main--ishopgo .section--fets .ui-icon-block {
+        padding: 16px 8px; } }
+    .main--ishopgo .section--fets .ui-icon-block__icon {
+      margin: 0 0 20px; }
+      .main--ishopgo .section--fets .ui-icon-block__icon img {
+        display: block;
+        height: 96px;
+        margin: 0 auto; }
+    .main--ishopgo .section--fets .ui-icon-block__title {
+      margin: 0 0 8px;
+      font-size: 1rem;
+      font-weight: 700;
+      color: #333; }
+      @media (min-width: 768px) {
+        .main--ishopgo .section--fets .ui-icon-block__title {
+          font-size: 1.25rem;
+          margin: 0 0 12px; } }
+    .main--ishopgo .section--fets .ui-icon-block__sub {
+      font-size: .875rem;
+      color: #777; }
+      @media (min-width: 768px) {
+        .main--ishopgo .section--fets .ui-icon-block__sub {
+          font-size: 1rem; } }
+  .main--ishopgo .section--specs .section-heading {
+    margin: 0 0 2rem; }
+    .main--ishopgo .section--specs .section-heading .heading {
+      margin: 0 0 12px;
+      line-height: 1.25;
+      font-size: 28px;
+      font-weight: 600;
+      color: #fff; }
+    .main--ishopgo .section--specs .section-heading .paragraph {
+      font-size: 1rem; }
+  .main--ishopgo .section--specs .ui-icon-block {
+    font-size: 1rem; }
+    @media (min-width: 768px) {
+      .main--ishopgo .section--specs .ui-icon-block {
+        font-size: 1.25rem; } }
+.main--ishopgo .ui-testimonials__content {
+  line-height: 1.75rem;
+  font-size: 1.125rem;
+  font-weight: 600;
+  color: #555;
+  height: 7rem; }
+.main--ishopgo .ui-testimonials .item .ui-card:before {
+  opacity: .1; }
+.main--ishopgo .ui-testimonials .user {
+  display: flex;
+  align-items: center;
+  padding: 1.5rem 0; }
+  .main--ishopgo .ui-testimonials .user .avatar {
+    flex: 0 0 auto; }
+    .main--ishopgo .ui-testimonials .user .avatar img {
+      display: block;
+      width: 100%;
+      height: 100%;
+      object-fit: cover; }
+  .main--ishopgo .ui-testimonials .user .info {
+    flex: 1 1 auto;
+    min-width: 0; }
+    .main--ishopgo .ui-testimonials .user .info .heading {
+      white-space: nowrap;
+      overflow: hidden;
+      text-overflow: ellipsis; }
+    .main--ishopgo .ui-testimonials .user .info .sub-heading {
+      font-size: .75rem;
+      white-space: nowrap;
+      overflow: hidden;
+      text-overflow: ellipsis; }
+.main--ishopgo .ui-footer {
+  margin-top: 4rem; }
+  .main--ishopgo .ui-footer.ui-waves .footer-bg {
+    padding: 12rem 0 5rem 0; }
+  .main--ishopgo .ui-footer .ui-card--reg .card-header {
+    padding-bottom: 2.25rem; }
+    .main--ishopgo .ui-footer .ui-card--reg .card-header .heading {
+      margin: 0 0 .5rem;
+      font-size: 1.5rem;
+      font-weight: 700;
+      color: #fff; }
+    .main--ishopgo .ui-footer .ui-card--reg .card-header .paragraph {
+      line-height: 1.375;
+      font-size: .875rem;
+      color: #fff; }
+  .main--ishopgo .ui-footer .ui-card--reg .form-control {
+    padding: 1rem; }
+  .main--ishopgo .ui-footer .download-section {
+    padding-top: 3rem; }
+    .main--ishopgo .ui-footer .download-section .heading {
+      margin: 0 0 .5rem;
+      font-size: 1.75rem;
+      font-weight: 700;
+      color: #fff; }
+    .main--ishopgo .ui-footer .download-section .paragraph {
+      font-size: 1rem;
+      color: #fff; }
+    .main--ishopgo .ui-footer .download-section .actions {
+      margin: 1.75rem 0 0; }
+      .main--ishopgo .ui-footer .download-section .actions__download {
+        margin: 0 .25rem; }
+        .main--ishopgo .ui-footer .download-section .actions__download img {
+          height: 4rem; }
+
+.owl-theme .owl-dots .owl-dot span {
+  background-color: #ccc; }
+
+.owl-theme .owl-dots .owl-dot.active span,
+.owl-theme .owl-dots .owl-dot:hover span {
+  background-color: #92d275; }
 
 /*# sourceMappingURL=main.css.map */
